@@ -1,0 +1,60 @@
+import { BodyPart } from '../types';
+
+export const bodyParts: BodyPart[] = [
+  {
+    id: 'head',
+    name: 'ခေါင်း',
+    image: '/body/head.webp',
+    sakaw: '/voice/sakaw/Body/Head.wav',
+    pow: '/voice/pow/Body/Head.wav',
+    partIds: ['head'],
+  },
+  {
+    id: 'eye',
+    name: 'မျက်လုံး',
+    image: '/body/eye.webp',
+    sakaw: '/voice/sakaw/Body/Eye.wav',
+    pow: '/voice/pow/Body/Eye.wav',
+    partIds: ['eye1', 'eye2'],
+  },
+  {
+    id: 'ear',
+    name: 'နားရွက်',
+    image: '/body/ear.webp',
+    sakaw: '/voice/sakaw/Body/Ear.wav',
+    pow: '/voice/pow/Body/Ear.wav',
+    partIds: ['ear1', 'ear2'],
+  },
+  {
+    id: 'nose',
+    name: 'နှာခေါင်း',
+    image: '/body/nose.webp',
+    sakaw: '/voice/sakaw/Body/Nose.wav',
+    pow: '/voice/pow/Body/Nose.wav',
+    partIds: ['nose'],
+  },
+  {
+    id: 'mouth',
+    name: 'ပါးစပ်',
+    image: '/body/mouth.webp',
+    sakaw: '/voice/sakaw/Body/Mouth.wav',
+    pow: '/voice/pow/Body/Mouth.wav',
+    partIds: ['mouth'],
+  },
+  {
+    id: 'hand',
+    name: 'လက်',
+    image: '/body/hand.webp',
+    sakaw: '/voice/sakaw/Body/Hand.wav',
+    pow: '/voice/pow/Body/Hand.wav',
+    partIds: ['hand1', 'hand2'],
+  },
+  {
+    id: 'leg',
+    name: 'ခြေထောက်',
+    image: '/body/leg.webp',
+    sakaw: '/voice/sakaw/Body/Leg.wav',
+    pow: '/voice/pow/Body/Leg.wav',
+    partIds: ['leg1', 'leg2'],
+  },
+];

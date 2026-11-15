@@ -1,0 +1,62 @@
+import { VerbItem } from '../types';
+
+export const verbsData: VerbItem[] = [
+  {
+    id: 'toothbrush',
+    name: 'သွားတိုက်သည်',
+    icon: '🪥',
+    actionType: 'brush',
+    sakaw: '/voice/sakaw/Verb/ToothBrush.wav',
+    pow: '/voice/pow/Verb/ToothBrush.wav',
+    burmese: 'သွားတိုက်သည်',
+  },
+  {
+    id: 'eat',
+    name: 'စားသည်',
+    icon: '🍚',
+    sakaw: '/voice/sakaw/Verb/Eat.wav',
+    pow: '/voice/pow/Verb/Eat.wav',
+    burmese: 'စားသည်',
+  },
+  {
+    id: 'drink',
+    name: 'ရေသောက်သည်',
+    icon: '💧',
+    sakaw: '/voice/sakaw/Verb/WaterDrink.wav',
+    pow: '/voice/pow/Verb/WaterDrink.wav',
+    burmese: 'ရေသောက်သည်',
+  },
+  {
+    id: 'facewash',
+    name: 'မျက်နှာသစ်သည်',
+    icon: '🧼',
+    sakaw: '/voice/sakaw/Verb/FaceWash.wav',
+    pow: '/voice/pow/Verb/FaceWash.wav',
+    burmese: 'မျက်နှာသစ်သည်',
+  },
+  {
+    id: 'play',
+    name: 'ဆော့ကစားသည်',
+    icon: '⚽',
+    sakaw: '/voice/sakaw/Verb/Play.wav',
+    pow: '/voice/pow/Verb/Play.wav',
+    burmese: 'ဆော့ကစားသည်',
+  },
+  {
+    id: 'wakeup',
+    name: 'အိပ်ရာထသည်',
+    icon: '⏰',
+    sakaw: '/voice/sakaw/Verb/WakeUp.wav',
+    pow: '/voice/pow/Verb/WakeUp.wav',
+    burmese: 'အိပ်ရာထသည်',
+  },
+  {
+    id: 'sleep',
+    name: 'အိပ်စက်သည်',
+    icon: '🌙',
+    actionType: 'sleep',
+    sakaw: '/voice/sakaw/Verb/Sleep.wav',
+    pow: '/voice/pow/Verb/Sleep.wav',
+    burmese: 'အိပ်စက်သည်',
+  },
+];

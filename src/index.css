@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Custom 3D Card Flip for Numbers */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Kiddo custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FEF3C7;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FBBF24;
+  border-radius: 9999px;
+  border: 2px solid #FEF3C7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F59E0B;
+}

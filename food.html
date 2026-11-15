@@ -5,7 +5,7 @@
   <title>Karen Kiddo | Food Pronounciation</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="desktop_images/logo.png"/>
+  <link rel="icon" type="image/png" href="desktop_images/logo.webp"/>
 
   <style>
       @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
@@ -14,7 +14,7 @@
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
-      background-image: url('desktop_images/food_background.png');
+      background-image: url('desktop_images/food_background.webp');
       background-size: cover;
       background-position: center;
       height: 100vh;
@@ -242,7 +242,7 @@
 
 @media only screen and (max-width: 767px) {
   body {
-    background-image: url('mobile_images/food_background.png');
+    background-image: url('mobile_images/food_background.webp');
     background-size: 68.5vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -321,8 +321,8 @@
 </head>
 <body>
   <div class="overlay">
-    <img class="food-guide" src="desktop_images/food_guide.png">
-    <img class="point animated-image" src="desktop_images/point.png">
+    <img class="food-guide" src="desktop_images/food_guide.webp">
+    <img class="point animated-image" src="desktop_images/point.webp">
     <span class="btn ok"><i class="fa-solid fa-thumbs-up"></i></span>
  </div>
   <div class="container">
@@ -341,33 +341,33 @@
       <!-- Placeholder shapes for images -->
       <!-- Row 1 -->
       
-      <img src="food_png/rm6.png" alt="Image 1">      
-      <img src="food_png/rm9.png" alt="Image 2">
-      <img src="food_png/rm3.png" alt="Image 3">
-      <img src="food_png/rm18.png" alt="Image 4">
-      <img src="food_png/rm11.png" alt="Image 5">
-      <img src="food_png/rm12.png" alt="Image 6">
+      <img src="food_png/rm6.webp" alt="Image 1">      
+      <img src="food_png/rm9.webp" alt="Image 2">
+      <img src="food_png/rm3.webp" alt="Image 3">
+      <img src="food_png/rm18.webp" alt="Image 4">
+      <img src="food_png/rm11.webp" alt="Image 5">
+      <img src="food_png/rm12.webp" alt="Image 6">
 
-      <img src="food_png/rm5.png" alt="Image 7">
-      <img src="food_png/rm14.png" alt="Image 8">
-      <img src="food_png/rm17.png" alt="Image 9">
-      <img id="f13" src="food_png/rm13.png" alt="Image 10">
-      <img src="food_png/rm16.png" alt="Image 11">
-      <img src="food_png/rm15.png" alt="Image 12">
+      <img src="food_png/rm5.webp" alt="Image 7">
+      <img src="food_png/rm14.webp" alt="Image 8">
+      <img src="food_png/rm17.webp" alt="Image 9">
+      <img id="f13" src="food_png/rm13.webp" alt="Image 10">
+      <img src="food_png/rm16.webp" alt="Image 11">
+      <img src="food_png/rm15.webp" alt="Image 12">
       <!-- Row 3 -->
-     <img src="food_png/rm2.png" alt="Image 13">
-      <img src="food_png/rm7.png" alt="Image 14">
-      <img src="food_png/rm4.png" alt="Image 15">
-      <img src="food_png/rm8.png" alt="Image 16">
-      <img src="food_png/rm10.png" alt="Image 17">
-      <img src="food_png/rm1.png" alt="Image 18">
+     <img src="food_png/rm2.webp" alt="Image 13">
+      <img src="food_png/rm7.webp" alt="Image 14">
+      <img src="food_png/rm4.webp" alt="Image 15">
+      <img src="food_png/rm8.webp" alt="Image 16">
+      <img src="food_png/rm10.webp" alt="Image 17">
+      <img src="food_png/rm1.webp" alt="Image 18">
 
      
     </div>
   
   <div class="bottom">
     
-    <img class="plate" src="food_png/plate.png" alt="Plate">
+    <img class="plate" src="food_png/plate.webp" alt="Plate">
     <span id="text"></span>
     
     <div class="display-large-image">
@@ -446,24 +446,24 @@ document.addEventListener("DOMContentLoaded", function() {
   const ContentClickSound = 'sounds/content_click.wav';
 
   const imageMap = {
-    '/rm1.png': ['food_png/f1.png', 'ခရမ်းသီး', 'voice/sakaw/Foods/EggPlant.wav', 'voice/pow/Foods/EggPlant.wav'],
-    '/rm2.png': ['food_png/f2.png','မာလကာသီး' ,'voice/sakaw/Foods/MarLarKar.wav', 'voice/pow/Foods/MarLarKar.wav'],
-    '/rm3.png': ['food_png/f3.png', 'စပျစ်သီး' ,'voice/sakaw/Foods/Grape.wav', 'voice/pow/Foods/Grape.wav'],
-    '/rm4.png': ['food_png/f4.png', 'ပန်းသီး', 'voice/sakaw/Foods/Apple.wav', 'voice/pow/Foods/Apple.wav'],
-    '/rm5.png': ['food_png/f5.png', 'လိမ္မော်သီး','voice/sakaw/Foods/Orange.wav', 'voice/pow/Foods/Orange.wav'],
-    '/rm6.png': ['food_png/f6.png', 'နာနတ်သီး', 'voice/sakaw/Foods/PileApple.wav', 'voice/pow/Foods/PileApple.wav'],
-    '/rm7.png': ['food_png/f7.png', 'သရက်သီး', 'voice/sakaw/Foods/Mango.wav', 'voice/pow/Foods/Mango.wav'],
-    '/rm8.png': ['food_png/f8.png', 'ငှက်ပျော်သီး', 'voice/sakaw/Foods/Banana.wav', 'voice/pow/Foods/Banana.wav'],
-    '/rm9.png': ['food_png/f9.png', 'မန်ကျီးသီး', 'voice/sakaw/Foods/ManKyiThi.wav', 'voice/pow/Foods/ManKyiThi.wav'],
-    '/rm10.png': ['food_png/f10.png', 'ခရမ်းချဉ်သီး', 'voice/sakaw/Foods/Tomato.wav', 'voice/pow/Foods/Tomato.wav'],
-    '/rm11.png': ['food_png/f11.png', 'သခွားသီး', 'voice/sakaw/Foods/Cucumber.wav', 'voice/pow/Foods/Cucumber.wav'],
-    '/rm12.png': ['food_png/f12.png', 'အာလူး'],
-    '/rm13.png': ['food_png/f13.png', 'ကြက်သား', 'voice/sakaw/Foods/ChickenCurry.wav', 'voice/pow/Foods/ChickenCurry.wav'],
-    '/rm14.png': ['food_png/f14.png', 'ဝက်သား', 'voice/sakaw/Foods/Pork.wav', 'voice/pow/Foods/Pork.wav'],
-    '/rm15.png': ['food_png/f15.png','အမဲသား', 'voice/sakaw/Foods/Beef.wav', 'voice/pow/Foods/Beef.wav'],
-    '/rm16.png': ['food_png/f16.png', 'ငါး', 'voice/sakaw/Foods/FishCurry.wav', 'voice/pow/Foods/FishCurry.wav'],
-    '/rm17.png': ['food_png/f17.png', 'ထမင်း', 'voice/sakaw/Foods/Rice.wav', 'voice/pow/Foods/Rice.wav'],
-    '/rm18.png': ['food_png/f18.png', 'ဖရဲသီး', 'voice/sakaw/Foods/Watermelon.wav', 'voice/pow/Foods/Watermelon.wav'],
+    '/rm1.webp': ['food_png/f1.webp', 'ခရမ်းသီး', 'voice/sakaw/Foods/EggPlant.wav', 'voice/pow/Foods/EggPlant.wav'],
+    '/rm2.webp': ['food_png/f2.webp','မာလကာသီး' ,'voice/sakaw/Foods/MarLarKar.wav', 'voice/pow/Foods/MarLarKar.wav'],
+    '/rm3.webp': ['food_png/f3.webp', 'စပျစ်သီး' ,'voice/sakaw/Foods/Grape.wav', 'voice/pow/Foods/Grape.wav'],
+    '/rm4.webp': ['food_png/f4.webp', 'ပန်းသီး', 'voice/sakaw/Foods/Apple.wav', 'voice/pow/Foods/Apple.wav'],
+    '/rm5.webp': ['food_png/f5.webp', 'လိမ္မော်သီး','voice/sakaw/Foods/Orange.wav', 'voice/pow/Foods/Orange.wav'],
+    '/rm6.webp': ['food_png/f6.webp', 'နာနတ်သီး', 'voice/sakaw/Foods/PileApple.wav', 'voice/pow/Foods/PileApple.wav'],
+    '/rm7.webp': ['food_png/f7.webp', 'သရက်သီး', 'voice/sakaw/Foods/Mango.wav', 'voice/pow/Foods/Mango.wav'],
+    '/rm8.webp': ['food_png/f8.webp', 'ငှက်ပျော်သီး', 'voice/sakaw/Foods/Banana.wav', 'voice/pow/Foods/Banana.wav'],
+    '/rm9.webp': ['food_png/f9.webp', 'မန်ကျီးသီး', 'voice/sakaw/Foods/ManKyiThi.wav', 'voice/pow/Foods/ManKyiThi.wav'],
+    '/rm10.webp': ['food_png/f10.webp', 'ခရမ်းချဉ်သီး', 'voice/sakaw/Foods/Tomato.wav', 'voice/pow/Foods/Tomato.wav'],
+    '/rm11.webp': ['food_png/f11.webp', 'သခွားသီး', 'voice/sakaw/Foods/Cucumber.wav', 'voice/pow/Foods/Cucumber.wav'],
+    '/rm12.webp': ['food_png/f12.webp', 'အာလူး'],
+    '/rm13.webp': ['food_png/f13.webp', 'ကြက်သား', 'voice/sakaw/Foods/ChickenCurry.wav', 'voice/pow/Foods/ChickenCurry.wav'],
+    '/rm14.webp': ['food_png/f14.webp', 'ဝက်သား', 'voice/sakaw/Foods/Pork.wav', 'voice/pow/Foods/Pork.wav'],
+    '/rm15.webp': ['food_png/f15.webp','အမဲသား', 'voice/sakaw/Foods/Beef.wav', 'voice/pow/Foods/Beef.wav'],
+    '/rm16.webp': ['food_png/f16.webp', 'ငါး', 'voice/sakaw/Foods/FishCurry.wav', 'voice/pow/Foods/FishCurry.wav'],
+    '/rm17.webp': ['food_png/f17.webp', 'ထမင်း', 'voice/sakaw/Foods/Rice.wav', 'voice/pow/Foods/Rice.wav'],
+    '/rm18.webp': ['food_png/f18.webp', 'ဖရဲသီး', 'voice/sakaw/Foods/Watermelon.wav', 'voice/pow/Foods/Watermelon.wav'],
     // Add more mappings for all thumbnails and their associated larger images
   };
 
